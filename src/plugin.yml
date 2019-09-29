@@ -1,0 +1,8 @@
+name: LuthKits
+author: dont
+version: 1.0
+main: com.dont.kits.Main
+commands:
+ kit:
+ criarkit:
+ editarkit:

@@ -1,0 +1,49 @@
+Kits:
+ pvp:
+  Permissao: "kit.pvp"
+  Delay: 60000 #em ms
+  Icone:
+   Material: DIAMOND_SWORD
+   Nome: "&bKit PVP"
+   Lore:
+    - "&7Kit topzera"
+  Itens: nulo
+ minerar:
+  Permissao: "kit.minerar"
+  Delay: 10000 #em ms
+  Icone:
+   Material: DIAMOND_PICKAXE
+   Nome: "&bKit Mineração"
+   Lore:
+    - "&7Kit top"
+  Itens: nulo
+
+MenuKits:
+ Tamanho: 27
+ Nome: "Kits"
+
+Voltar:
+ Material: ARROW
+ Nome: "&aVoltar"
+
+Categorias:
+ categoria1:
+  Icone:
+   Material: DIAMOND
+   Nome: "&bKits legais"
+   Lore:
+    - "&7Kit tops"
+  Tamanho: 27 #tamanho do menu
+  Slot: 11 #slot no menu do /kits
+  Kits:
+   - "10:pvp" #id:kit
+ categoria2:
+  Icone:
+   Material: EMERALD
+   Nome: "&bKits sei la"
+   Lore:
+    - "&7Kit mais ou menos"
+  Tamanho: 36 #tamanho do menu
+  Slot: 15 #slot no menu do /kits
+  Kits:
+   - "10:minerar" #id:kit
